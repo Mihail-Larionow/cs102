@@ -57,6 +57,3 @@ def decrypt_vigenere(ciphertext: str, keyword: str) -> str:
             plaintext += i
         k+=1
     return plaintext
-
-print(encrypt_vigenere("ATTACKDOWN", "LEMON"))
-print(decrypt_vigenere("LXFOPVEFRNHR", "LEMON"))
